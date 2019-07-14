@@ -1,2 +1,2 @@
 # CodeRainWallpaper
-一款自定义文字的动态壁纸APP
+一款可以自定义文字的代码雨动态壁纸APP
