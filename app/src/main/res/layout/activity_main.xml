@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<com.dream.codewallpaper.view.CodeView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:id="@+id/activitymainCodeView1"/>
+
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="设置壁纸"
+		android:onClick="setWallpaper"
+		android:layout_alignParentBottom="true"
+		android:id="@+id/activitymainButton1"/>
+
+	<LinearLayout
+		android:id="@+id/activity_mainLinearLayout"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_above="@id/activitymainButton1"
+		android:orientation="horizontal">
+
+		<EditText
+			android:layout_width="wrap_content"
+			android:ems="10"
+			android:layout_height="wrap_content"
+			android:hint="请输入文本"
+			android:singleLine="true"
+			android:id="@+id/activitymainEditText1"
+			android:layout_weight="1.0"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="确定"
+			android:onClick="onComplete"/>
+
+	</LinearLayout>
+
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="葫芦侠三楼【Rain】雪儿"
+		android:layout_above="@id/activity_mainLinearLayout"
+		android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
+
