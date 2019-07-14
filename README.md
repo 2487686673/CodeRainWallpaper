@@ -3,4 +3,4 @@
 
 效果图：
 
-![效果图](https://github.com/2487686673/CodeRainWallpaper/screenshots/LiveWallpaper.gif)
+![效果图](https://github.com/2487686673/CodeRainWallpaper/blob/master/screenshots/LiveWallpaper.gif)
